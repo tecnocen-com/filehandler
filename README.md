@@ -1,4 +1,4 @@
-Tecnocen-com Yii2 File Handler
+Tecnocen.com Yii2 File Handler
 =========================
 
 [![Latest Stable Version](https://poser.pugx.org/tecnocen/yii2-filehandler/v/stable)](https://packagist.org/packages/tecnocen/yii2-filehandler) [![Total Downloads](https://poser.pugx.org/tecnocen/yii2-filehandler/downloads)](https://packagist.org/packages/tecnocen/yii2-filehandler) [![Latest Unstable Version](https://poser.pugx.org/tecnocen/yii2-filehandler/v/unstable)](https://packagist.org/packages/tecnocen/yii2-filehandler) [![License](https://poser.pugx.org/tecnocen/yii2-filehandler/license)](https://packagist.org/packages/tecnocen/yii2-filehandler)
