@@ -1,19 +1,20 @@
 {
     "name": "tecnocen/yii2-filehandler",
-    "description": "Yii2 widget for Jquery TagsInput plugin",
+    "description": "Yii2 File handler validator",
     "keywords": [
         "yii",
         "yii2",
         "file",
-        "filehandler"
+        "filehandler",
+        "file validator"
     ],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
-    "homepage": "https://github.com/tecnocen-com/yii2-jquery-tagsinput",
+    "homepage": "https://github.com/tecnocen-com/filehandler",
     "authors": [
         {
             "name": "Angel (Faryshta) Guevara",
-            "email": "angeldelcaos@gmail.com",
+            "email": "aguevara@tecnocen.com",
             "homepage": "https://github.com/Faryshta",
             "role": "Developer"
         }
