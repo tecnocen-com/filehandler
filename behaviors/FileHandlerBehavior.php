@@ -20,7 +20,7 @@ class FileHandlerBehavior extends \yii\base\Behavior
 {
     /**
      * @var FileHandlerValidator|array|boolean the rule to be attachedk to the
-     * `owner`. If you want ot disable it, just set this property to `false`.
+     * `owner`. If you want to disable it, just set this property to `false`.
      */
     public $rule = [];
 
