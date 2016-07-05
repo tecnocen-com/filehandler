@@ -41,7 +41,8 @@ class ActiveDownloadAction extends \yii\web\Action
     public $modelClass;
 
     /**
-     * @var boolean if
+     * @var boolean if you want the file to be downloaded directly without
+     * asking.
      */
     public $forceDownload = false;
 
@@ -91,6 +92,7 @@ class ActiveDownloadAction extends \yii\web\Action
      */
     public function init()
     {
+        parent::init();
         if ($this->findModel !== null && !is_callable($this->findModel)) {
             throw new InvalidConfigException(
                 'The `findModel` parameter must be callable'
@@ -155,6 +157,8 @@ class ActiveDownloadAction extends \yii\web\Action
 
     /**
      * @return boolean if the file will be downloaded directly without asking
+     * @see $forceDownload
+     * @see $forceDownloadParam
      */
     protected function forceDownload()
     {
