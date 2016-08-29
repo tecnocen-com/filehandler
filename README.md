@@ -23,37 +23,13 @@ or add
 
 to the `require` section of your `composer.json` file.
 
-## Usage
-
-### FileHandlerValidator
-
-`tecnocen\filehandler\validators\FileHandlerValidator` is configured with a
-`folderPath`, its meant to vaildate and then save uploaded files into the
-`folderPath` or receive an string which will seek as a file on the `folderPath`
-and then validate the found file.
-
-```php
-use tecnocen\filehandler\validators\FileHandlerValidator;
-use yii\base\Model;
-
-class UserImage extends Model
-{
-    public function rules()
-    {
-        return [
-            [
-                ['route'],
-                FileHandlerValidator::className(),
-                'folderPath' => '@webroot/uploads'
-            ]
-        ];
-    }
-}
-```
-
 ## Documentation
 
-TODO
+[Actions Documentation](actions/README.md)
+
+[Behaviors Documentation](behaviors/README.md)
+
+[Validators Documentation](validators/README.md)
 
 ## License
 
