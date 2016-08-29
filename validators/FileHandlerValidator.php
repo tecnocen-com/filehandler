@@ -9,6 +9,8 @@ use yii\web\UploadedFile;
 use yii\base\Model;
 
 /**
+ * Validator to validate uploaded and already existing files on the server.
+ *
  * @author Angel (tecnocen-com) Guevara <aguevara@tecnocen.com>
  */
 class FileHandlerValidator extends \yii\validators\FileValidator
